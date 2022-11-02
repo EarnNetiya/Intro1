@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/mystyle.css">
+    <title>Form Input</title>
+        <style>
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+          width: 100%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        div {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style> 
+</head>
+<body>
+    <h1>Form Input</h1>
+    
+    <form>
+        
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" name="age"><br>
+        <label for="Password">Password:</label><br>
+        <input type="text" id="Password" name="Password"><br>
+        <label for="HBD">HBD:</label><br>
+        <input type="date" id="HBD" name="HBD"><br>
+        <label for="time">Time:</label><br>
+        <input type="time" id="time" name="time"><br>
+        <label for="range">range:</label><br>
+        <input type="range" id="range" name="range"><br>
+        <label for="color">Color:</label><br>
+        <input type="color" id="color" name="color"><br>
+        
+        <p>Choose your favorite Web language:</p>
+        
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+
+        <p>Dept:</p>
+        
+        <input type="checkbox" id="ine" name="dept1" value="INE">
+        <label for="ine">INE</label><br>
+        <input type="checkbox" id="inet" name="dept2" value="INET">
+        <label for="inet">INET</label><br>
+        <input type="checkbox" id="it" name="dept3" value="IT">
+        <label for="it">IT</label>
+        <br><br>
+        <input type="submit" value="ยืนยัน">
+        <input type="submit" value="ยกเลิก">
+    
+    </form>
+
+
+</body>
+</html>
